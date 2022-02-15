@@ -1,6 +1,5 @@
 const FetchUsers = async (forminput, API_KEY) => {
   try {
-    console.log(API_KEY);
     const response = await fetch(
       `https://api.github.com/search/users?q=${forminput}`,
       {
